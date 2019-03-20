@@ -11,12 +11,9 @@ a{
   margin-right: auto;
 }
 #room {
-  width: 690px;
-  height: 300px;
-  overflow: auto;
-  background-color: #eee;
+  background-clip: #dddddd;
   margin-bottom: 1em;
-  margin-right: 10px;
+  border: 1px solid #cccccc;
 }
 #messages {
   width: 690px;
@@ -25,4 +22,25 @@ a{
   background-color:  #eee;
   margin-bottom: 1em;
   margin-right: 10px;
+}
+#room-list {
+  float: right;
+  width: 100px;
+  height: 300px;
+  border: 1px solid #cccccc;
+  overflow: auto;
+}
+#room-list div{
+  border-bottom:1px solid #eee;
+}
+#room-list div:hover {
+  background-color: #ddd;
+}
+#send-message {
+  width: 700px;
+  margin-bottom: 1em;
+  margin-right: 1em
+}
+#help{
+  font: 10px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
